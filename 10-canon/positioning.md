@@ -3,7 +3,7 @@ id: marmareos-canon-positioning
 client_id: marmareos
 record_type: knowledge
 service_path: branding
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: The market frame, the difference that matters, and the message hierarchy.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### Positioning statement (02-posizionamento-differenziazione.md)
 > "Per architetti, interior designer e developer che firmano progetti d'eccezione tra Monaco e la Costa Azzurra, Marbles Marmareos è la boutique italiana della pietra naturale che garantisce qualità misurabile e un unico interlocutore tecnico dall'idea alla posa — perché unisce maestria artigianale dal 1972 e controllo numerico, con tolleranze documentate e tempi certi."

@@ -3,7 +3,7 @@ id: marmareos-canon-company
 client_id: marmareos
 record_type: knowledge
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: Who the company is, legal/operating context, history, beliefs, mistakes, lessons and five-year ambition.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### Legal & identity
 - Legal name: **Marbles Marmareos S.r.l.** — Via Aldo Moro 47, 38062 **Arco (TN)**, Italy. **P.IVA / C.F. 02605870225** (MASTER_PROMPT_MARMAREOS.md, 02-gdpr-privacy.md).

@@ -3,7 +3,7 @@ id: marmareos-canon-icp
 client_id: marmareos
 record_type: knowledge
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: Ideal customer profile(s), buying triggers, objections and decision process.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### Geography (priority order)
 1. **Monaco / Côte d'Azur, in French** — the priority ADV and prospecting market (Cap-Ferrat, Cap d'Antibes, Saint-Tropez, Cannes, Nice) (MASTER_PROMPT_MARMAREOS.md, 03-lead-generation-prospecting.md).

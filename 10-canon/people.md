@@ -3,7 +3,7 @@ id: marmareos-canon-people
 client_id: marmareos
 record_type: knowledge
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: Who decides, who approves, who executes — client-side and agency-side.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### Client side (Marbles Marmareos)
 - **Virginia Ottobre — legal representative and decision maker.** Approves: ADV budget cap and Google Ads billing, fair/event investments and engagement level, tool spend (HubSpot/Sales Navigator plans), project authorizations and image releases for the symbol projects, positioning statement and pillars, pricing/listino, KPI targets, GDPR/legal validation (with the company lawyer), AI-tools go/no-go and Phase-1 data (price list, pricing rules, branded quote template) (TODO-VIRGINIA.md — 59 tasks, MASTER_PROMPT_MARMAREOS.md).

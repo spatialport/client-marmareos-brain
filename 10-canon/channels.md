@@ -3,7 +3,7 @@ id: marmareos-canon-channels
 client_id: marmareos
 record_type: knowledge
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: Where the company is present, what runs there, and what performance means per channel.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### Paid search (the live engine)
 - **Google Search FR — `MM-Search-FR-CdA-Intent`**: live plan from 30 June 2026, **€300/month cap (€9.80/day)**, Maximize Clicks with Max CPC €3.00 in ramp-up, geo Monaco + Alpes-Maritimes + Saint-Tropez ("presence" targeting), French only. 5 ad groups: AG1 marbrier-luxe, AG2 marbre-sur-mesure, AG3 fournisseur-rare, AG4 pierre-architecture, AG5 yacht (paused at start). Negative list from day 1 (pas cher, effet marbre, carrelage, emploi…). Conversion `Form contatto — Sito` (AW-18285077126) (07b-campagna-search-fr-LIVE.md).

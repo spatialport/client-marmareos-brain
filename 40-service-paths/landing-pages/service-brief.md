@@ -3,7 +3,7 @@ id: marmareos-brief-landing-pages
 client_id: marmareos
 record_type: brief
 service_path: landing-pages
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client

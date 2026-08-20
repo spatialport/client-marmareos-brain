@@ -3,7 +3,7 @@ id: marmareos-canon-offer
 client_id: marmareos
 record_type: knowledge
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: What the company sells, how it is packaged and priced, and what is out of scope.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### What Marmareos sells
 Not slabs off a shelf: a **bespoke technical partner for the project**, from laser survey to delivery, with measurable quality. Six sellable offer lines (04-offerta-servizi-segmenti.md):

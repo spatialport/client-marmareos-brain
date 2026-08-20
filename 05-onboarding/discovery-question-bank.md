@@ -3,7 +3,7 @@ id: marmareos-onboarding-question-bank
 client_id: marmareos
 record_type: brief
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client

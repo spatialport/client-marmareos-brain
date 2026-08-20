@@ -3,7 +3,7 @@ id: marmareos-canon-operations
 client_id: marmareos
 record_type: knowledge
 service_path: company
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
@@ -18,7 +18,7 @@ updated_at: 2026-08-19
 
 Purpose: How the company operates day to day and how the engagement runs.
 
-## Proposed knowledge (awaiting review by Alex)
+## Accepted knowledge
 
 ### The 12-month growth plan (Jul 2026 → Jun 2027)
 Four phases anchored to real fair windows (00-OVERVIEW-GROWTH-PLAN.md):

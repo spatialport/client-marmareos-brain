@@ -3,7 +3,7 @@ id: marmareos-canon-brand
 client_id: marmareos
 record_type: knowledge
 service_path: branding
-status: proposed
+status: accepted
 owner: alex-bellesia
 authority: alex-bellesia
 ip_owner: client
