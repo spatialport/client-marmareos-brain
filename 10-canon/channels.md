@@ -1,58 +1,44 @@
 ---
 id: marmareos-canon-channels
 client_id: marmareos
-record_type: knowledge
-service_path: company
-status: accepted
-owner: alex-bellesia
-authority: alex-bellesia
-ip_owner: client
-access_scope: internal
-sensitivity: confidential
-source_ref: nxto://content/marmareos
+record_type: canon
+service_path: paid-acquisition
+status: proposed
+owner: alex
+authority: alex
+ip_owner: marmareos
+access_scope: client-team
+sensitivity: internal
+source_ref: manual-verification-google-ads-ui-2026-08-26
 schema_version: 1.1.0
-created_at: 2026-08-11
-updated_at: 2026-08-19
+created_at: 2026-08-10
+updated_at: 2026-08-26
 ---
-# Channels
 
-Purpose: Where the company is present, what runs there, and what performance means per channel.
+# Channels — Marmareos
 
-## Accepted knowledge
+## Paid search
 
-### Paid search (the live engine)
-- **Google Search FR — `MM-Search-FR-CdA-Intent`**: live plan from 30 June 2026, **€300/month cap (€9.80/day)**, Maximize Clicks with Max CPC €3.00 in ramp-up, geo Monaco + Alpes-Maritimes + Saint-Tropez ("presence" targeting), French only. 5 ad groups: AG1 marbrier-luxe, AG2 marbre-sur-mesure, AG3 fournisseur-rare, AG4 pierre-architecture, AG5 yacht (paused at start). Negative list from day 1 (pas cher, effet marbre, carrelage, emploi…). Conversion `Form contatto — Sito` (AW-18285077126) (07b-campagna-search-fr-LIVE.md).
-- **Google Search IT Milano — `MM-Search-IT-Milano-Intent`**: 2nd campaign, **~€200/month (€6.50/day)**, Milan +25km, built as draft; publishing blocked on Google identity verification by Alex (campagna-milano-search-spec.md).
-- **Landing pages (Lovable, live):** FR **/projet** (`marblesmarmareos.it/projet?lang=fr`, "Demande de projet" modal + catalogue download) and IT **/marmo-su-misura** (Milan). SEO audit recommends **noindex** on both (CHECKLIST-GO-LIVE.md, seo-audit-strategia-2026-08-15.md).
-- **Meta (IG/FB) ads:** NOT live in launch phase — planned from ~M3 as small retargeting test (€50–120/month) that subtracts from the Search quota within the €500 cap (12-budget-canali.md). (Corrects earlier draft claiming Meta film-cut ads already running.)
-- Budget governance: client ADV cap **≤ €500/month** contract-wide (12/12 months); scaling rule driven by cost-per-contract, not clicks: scale only after ≥1 tracked contract or stable-CPL SQL flow ≥2 months (12-budget-canali.md).
+Two live Google Ads Search campaigns (account 653-269-0547):
 
-### Organic / SEO / GEO
-- Site is a client-rendered React SPA → weak organic indexing; audit (15 Aug 2026): good foundations (robots, sitemap 13 URLs, Seo.tsx meta, Consent Mode v2) but **no prerender = priority fix**; GA4 last 7 days: 49 users, ~78% of sessions from Paid Search, organic ~4 sessions/week, AI-assistant channel = 0 (seo-audit-strategia-2026-08-15.md).
-- Roadmap: prerender, structured data (Organization/LocalBusiness with Arco TN + P.IVA), material pages + city pages, guides 1-2/month, FAQ schema, llms.txt, Google Business Profile (seo-audit-strategia-2026-08-15.md).
+- `MM-Search-FR-CdA-Intent` — targeting Monaco / Côte d'Azur, French-language ads.
+- `MM-Search-IT-Milano-Intent` — targeting Milano +25km, Italian-language ads.
 
-### Social
-- **Instagram (top priority):** 3-4 posts/week + daily stories; feed logic "one tile per post" — image-led category covers + strong single posts (Monaco project editorials, material macros), slabs-on-pedestal only inside carousels; ivory/graphite palette, dark tiles only when material is dark (FEED-STRATEGY.md, BRAND-BOOK.md). Bio update to FR-priority pending (TODO-BIANCA.md). Recurring formats incl. R1 "Progetto del mese" `[project authorizations pending]`.
-- **LinkedIn (B2B priority):** 1-2 posts/week; projects, partnerships, thought leadership signed Virginia/Mauro (BRAND-BOOK.md, 10-pr-autorevolezza-luxury.md). Facebook secondary.
-- Link-in-bio page (multilingual, on the SITO-MARMAREOS bundle) with UTM tracking, DMs routed to CRM (08-calendario-editoriale-social.md tasks).
+### Accepted knowledge
 
-### Outreach & prospecting
-- LinkedIn Sales Navigator (from ~M3, ~€80/month) — 4 saved ICP lists; first batch ~70 quality contacts; multi-touch email+LinkedIn sequences IT/EN/FR (03-lead-generation-prospecting.md, 12-budget-canali.md).
+- FR budget documented: €300/month (~€9.80/day).
+- IT Milano budget documented: ~€200/month (~€6.50/day).
+- Contractual ADV cap: ≤€500/month total account spend.
+- **VERIFIED 26 Aug 2026 (Google Ads UI, account 653-269-0547, campaign view, live screenshots, last 30 days 28/07–26/08/2026):**
+  - Campaign status: both `MM-Search-FR-CdA-Intent` and `MM-Search-IT-Milano-Intent` show status "Idoneo" (eligible/serving). No identity-verification block or other disapproval was in effect on either campaign at the time of verification.
+  - Real configured daily budgets: FR = €8.00/day (~€243/month); IT Milano = €12.00/day (~€365/month). Account total = €20.00/day (~€600/month) — this **exceeds** the €500/month contractual ADV cap. This is a discrepancy vs. the budget figures previously recorded above, which are stale.
+  - Real 30-day spend (28/07–26/08/2026): €571.52 total — FR ≈€311.58 (6 conversions, cost/conv €51.93), IT ≈€259.92 (4 conversions, cost/conv €64.98). Actual spend also exceeds the monthly cap.
+  - Per-campaign performance, last 30 days, source = Google Ads (not HubSpot proxy): FR-CdA — 6 conversions, conv. rate 5.13%, cost/conv €51.93, 1,527 impressions, 117 clicks, CTR 7.66%. IT-Milano — 4 conversions, conv. rate 1.54%, cost/conv €64.98, 4,233 impressions, 259 clicks, CTR 6.12%.
+  - Note: this **reverses** the preliminary reading based on the HubSpot proxy (which appeared to favor IT). On real Ads conversion data, FR converts better and at lower cost/conversion than IT.
 
-### Fairs & events (no showroom → light formats)
-- **Marmomac, Verona 22–25 Sep 2026** · **EquipHotel, Paris 2–5 Nov 2026** · **Maison & Objet, Paris ~Jan 2027** (networking) · **Milano Design Week, Apr 2027**; optional **Monaco Yacht Show 23–26 Sep 2026** for lightweight marble (DOSSIER.md §4, TODO files). Each event quoted and approved individually `[su preventivo]`.
+### Open questions
 
-### PR / authority
-- FR-first media list: AD France, Elle Décoration, IDEAT, Marie Claire Maison; IT: AD Italia, Elle Decor, Interni, Domus, Living Corriere; platforms Archiproducts + Architonic; project-PR on symbol projects only `[with authorization]`, one outlet at a time with exclusivity (DOSSIER.md §5, 10-pr-autorevolezza-luxury.md).
+- Budget vs. contractual cap: real configured Ads budgets (€20/day, ~€600/month) and real spend (€571.52 in the last 30 days) both exceed the €500/month ADV cap. Alex to decide: lower the Ads daily budgets to fit the cap, or get the client to approve a cap increase.
+- Google Ads vs. HubSpot conversion count mismatch (same period): IT — 4 conversions in Google Ads vs. 6 new HubSpot contacts attributable to the IT campaign; FR — 6 conversions in Google Ads vs. 5 new HubSpot contacts attributable to the FR campaign. To investigate: possible HubSpot sync gap, or duplicate-counting on the Ads side. Not yet resolved.
 
-### Measurement
-- GTM as single container → GA4 (events `generate_lead`, `file_download`/`download_catalogo`, `cta_click`, `project_engaged`) → Google Ads conversions; consent-first with Consent Mode v2; every lead lands in **HubSpot with origine + UTM** (`origine_lead = google_search` verified in preview); UTM convention `mm_search_fr_cda_intent` / per-ad-group `utm_content` (01-integrazioni-tracking.md, 07b-campagna-search-fr-LIVE.md).
-- Reporting: monthly report template (Part A) + quarterly review (Part B), KPI dashboard `kpi-dashboard.html` on the client portal; traffic-light thresholds `[targets to validate after 1-2 quarters baseline]` (11-template-report.md, 00-OVERVIEW-GROWTH-PLAN.md).
-
-## Open questions
-
-- All access references (Google Ads, GA4, GTM, Meta, HubSpot) — record only as `password-manager://` refs; several accounts are created but billing/identity verification steps sit with the client.
-- Milano campaign: has Alex completed Google identity verification and published (paused) the campaign?
-- Meta retargeting start date and creative set — decision pending on Search optimization.
-- Newsletter/nurturing sequences: which are actually active in HubSpot as of Aug 2026?
-- Channel-level KPI targets (CPL threshold, lead/month) — all still `[target da validare]` with real data.
+~~Milano campaign: has Alex completed Google identity verification and published (paused) the campaign?~~ **Resolved 26 Aug 2026**: not blocked. Verified live in Google Ads — status "Idoneo", serving normally, same as the FR campaign.
