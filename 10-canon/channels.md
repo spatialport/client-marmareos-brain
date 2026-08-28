@@ -1,58 +1,34 @@
 ---
-id: marmareos-canon-channels
+id: marmareos-canon-channels-measurement-update
 client_id: marmareos
-record_type: knowledge
-service_path: company
-status: accepted
-owner: alex-bellesia
-authority: alex-bellesia
-ip_owner: client
-access_scope: internal
-sensitivity: confidential
-source_ref: nxto://content/marmareos
+record_type: canon
+service_path: paid-acquisition
+status: proposed
+owner: alex
+authority: alex
+ip_owner: marmareos
+access_scope: client-team
+sensitivity: internal
+source_ref: manual-verification-google-ads-hubspot-ui-2026-08-27
 schema_version: 1.1.0
-created_at: 2026-08-11
-updated_at: 2026-08-19
+created_at: 2026-08-27
+updated_at: 2026-08-27
 ---
-# Channels
 
-Purpose: Where the company is present, what runs there, and what performance means per channel.
+# Channels — Marmareos — addendum 27 Aug 2026 (measurement fixes)
 
-## Accepted knowledge
+Questo addendum si aggiunge (non sostituisce) l'aggiornamento del 26/08/2026 già in revisione. Riguarda le azioni correttive di misurazione decise dopo l'analisi del disallineamento Google Ads vs HubSpot.
 
-### Paid search (the live engine)
-- **Google Search FR — `MM-Search-FR-CdA-Intent`**: live plan from 30 June 2026, **€300/month cap (€9.80/day)**, Maximize Clicks with Max CPC €3.00 in ramp-up, geo Monaco + Alpes-Maritimes + Saint-Tropez ("presence" targeting), French only. 5 ad groups: AG1 marbrier-luxe, AG2 marbre-sur-mesure, AG3 fournisseur-rare, AG4 pierre-architecture, AG5 yacht (paused at start). Negative list from day 1 (pas cher, effet marbre, carrelage, emploi…). Conversion `Form contatto — Sito` (AW-18285077126) (07b-campagna-search-fr-LIVE.md).
-- **Google Search IT Milano — `MM-Search-IT-Milano-Intent`**: 2nd campaign, **~€200/month (€6.50/day)**, Milan +25km, built as draft; publishing blocked on Google identity verification by Alex (campagna-milano-search-spec.md).
-- **Landing pages (Lovable, live):** FR **/projet** (`marblesmarmareos.it/projet?lang=fr`, "Demande de projet" modal + catalogue download) and IT **/marmo-su-misura** (Milan). SEO audit recommends **noindex** on both (CHECKLIST-GO-LIVE.md, seo-audit-strategia-2026-08-15.md).
-- **Meta (IG/FB) ads:** NOT live in launch phase — planned from ~M3 as small retargeting test (€50–120/month) that subtracts from the Search quota within the €500 cap (12-budget-canali.md). (Corrects earlier draft claiming Meta film-cut ads already running.)
-- Budget governance: client ADV cap **≤ €500/month** contract-wide (12/12 months); scaling rule driven by cost-per-contract, not clicks: scale only after ≥1 tracked contract or stable-CPL SQL flow ≥2 months (12-budget-canali.md).
+## Accepted knowledge — nuove voci
 
-### Organic / SEO / GEO
-- Site is a client-rendered React SPA → weak organic indexing; audit (15 Aug 2026): good foundations (robots, sitemap 13 URLs, Seo.tsx meta, Consent Mode v2) but **no prerender = priority fix**; GA4 last 7 days: 49 users, ~78% of sessions from Paid Search, organic ~4 sessions/week, AI-assistant channel = 0 (seo-audit-strategia-2026-08-15.md).
-- Roadmap: prerender, structured data (Organization/LocalBusiness with Arco TN + P.IVA), material pages + city pages, guides 1-2/month, FAQ schema, llms.txt, Google Business Profile (seo-audit-strategia-2026-08-15.md).
+- **Causa del disallineamento conversioni Ads/HubSpot (indagine 27/08/2026)**: due fenomeni distinti. Lato IT, sotto-conteggio in Ads per tag di conversione servito da dominio Google (non first-party) + almeno 2 contatti su 11 creati in HubSpot via canale "OFFLINE/INTEGRATION" (non tracciamento nativo, probabile mancato fire del pixel Ads). Lato FR, probabile sovra-conteggio Ads da doppio invio dello stesso form non deduplicato in HubSpot (non confermato, richiederebbe log GTM non disponibili).
+- **Conversioni avanzate per i lead: ATTIVATE il 27/08/2026** in Google Ads (Impostazioni → Conversioni avanzate per i lead), metodo "Tag Google" (tag esistente, già rilevato come configurato per includere automaticamente i dati utente dai form — nessuna modifica al sito necessaria). Risolve parzialmente il gap di misurazione segnalato come "Urgente" nella Diagnostica conversioni.
+- **Proprietà HubSpot "download_catalogo" creata il 27/08/2026** (Alex, via Impostazioni proprietà Contatti): checkbox singola, gruppo "Informazioni contatto". Ancora non popolata sui contatti esistenti né collegata a un trigger automatico (GTM/evento) — vedi open question sotto.
+- **Punteggio di ottimizzazione Google Ads**: passato da 70,9% (26/08) a **92,2%** (27/08) dopo applicazione da parte di Alex dei consigli su annunci/asset e parole chiave. Non tracciato in dettaglio quali singoli consigli siano stati accettati.
+- **Consiglio "gateway del tag Google" (server-side tagging via Cloudflare)**: ancora APERTO, non implementato. Il sito Marmareos è su Lovable; Lovable supporta il proxy Cloudflare solo come opzione avanzata dopo che il dominio è in stato "Live", e richiede una configurazione DNS attiva (passaggio da "DNS only" a "Proxied") più il deploy del Cloudflare Worker "Google tag gateway for advertisers". Richiede un account Cloudflare e accesso DNS del dominio — non eseguibile senza queste credenziali.
+- **Supermetrics**: il cliente ha deciso di NON attivarlo (connettore a pagamento). Chiuso, nessuna azione ulteriore prevista su questo fronte.
 
-### Social
-- **Instagram (top priority):** 3-4 posts/week + daily stories; feed logic "one tile per post" — image-led category covers + strong single posts (Monaco project editorials, material macros), slabs-on-pedestal only inside carousels; ivory/graphite palette, dark tiles only when material is dark (FEED-STRATEGY.md, BRAND-BOOK.md). Bio update to FR-priority pending (TODO-BIANCA.md). Recurring formats incl. R1 "Progetto del mese" `[project authorizations pending]`.
-- **LinkedIn (B2B priority):** 1-2 posts/week; projects, partnerships, thought leadership signed Virginia/Mauro (BRAND-BOOK.md, 10-pr-autorevolezza-luxury.md). Facebook secondary.
-- Link-in-bio page (multilingual, on the SITO-MARMAREOS bundle) with UTM tracking, DMs routed to CRM (08-calendario-editoriale-social.md tasks).
+## Open questions — aggiornamento
 
-### Outreach & prospecting
-- LinkedIn Sales Navigator (from ~M3, ~€80/month) — 4 saved ICP lists; first batch ~70 quality contacts; multi-touch email+LinkedIn sequences IT/EN/FR (03-lead-generation-prospecting.md, 12-budget-canali.md).
-
-### Fairs & events (no showroom → light formats)
-- **Marmomac, Verona 22–25 Sep 2026** · **EquipHotel, Paris 2–5 Nov 2026** · **Maison & Objet, Paris ~Jan 2027** (networking) · **Milano Design Week, Apr 2027**; optional **Monaco Yacht Show 23–26 Sep 2026** for lightweight marble (DOSSIER.md §4, TODO files). Each event quoted and approved individually `[su preventivo]`.
-
-### PR / authority
-- FR-first media list: AD France, Elle Décoration, IDEAT, Marie Claire Maison; IT: AD Italia, Elle Decor, Interni, Domus, Living Corriere; platforms Archiproducts + Architonic; project-PR on symbol projects only `[with authorization]`, one outlet at a time with exclusivity (DOSSIER.md §5, 10-pr-autorevolezza-luxury.md).
-
-### Measurement
-- GTM as single container → GA4 (events `generate_lead`, `file_download`/`download_catalogo`, `cta_click`, `project_engaged`) → Google Ads conversions; consent-first with Consent Mode v2; every lead lands in **HubSpot with origine + UTM** (`origine_lead = google_search` verified in preview); UTM convention `mm_search_fr_cda_intent` / per-ad-group `utm_content` (01-integrazioni-tracking.md, 07b-campagna-search-fr-LIVE.md).
-- Reporting: monthly report template (Part A) + quarterly review (Part B), KPI dashboard `kpi-dashboard.html` on the client portal; traffic-light thresholds `[targets to validate after 1-2 quarters baseline]` (11-template-report.md, 00-OVERVIEW-GROWTH-PLAN.md).
-
-## Open questions
-
-- All access references (Google Ads, GA4, GTM, Meta, HubSpot) — record only as `password-manager://` refs; several accounts are created but billing/identity verification steps sit with the client.
-- Milano campaign: has Alex completed Google identity verification and published (paused) the campaign?
-- Meta retargeting start date and creative set — decision pending on Search optimization.
-- Newsletter/nurturing sequences: which are actually active in HubSpot as of Aug 2026?
-- Channel-level KPI targets (CPL threshold, lead/month) — all still `[target da validare]` with real data.
+- **Popolamento "download_catalogo"**: la proprietà esiste ma (a) non è ancora valorizzata sui contatti storici che hanno effettivamente scaricato il catalogo, (b) non è collegata a un trigger automatico lato form/GTM per i nuovi lead. Serve decidere: backfill manuale one-off dei contatti storici (proposto, in attesa di conferma) + intervento tecnico lato sito/GTM per la scrittura automatica futura (non eseguibile da questa sessione).
+- **Gateway del tag Google / Cloudflare**: da valutare se vale la pena l'investimento tecnico (serve account Cloudflare + resource DNS) dato che le Conversioni avanzate per i lead (già attivate) coprono parte del gap di misurazione senza bisogno di modifiche infrastrutturali.
