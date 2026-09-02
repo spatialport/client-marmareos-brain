@@ -18,7 +18,7 @@ updated_at: 2026-09-02
 # Marmomac 2026 senza stand — dieci idee per fare stand out (KISS list per la direzione, 2 settembre 2026)
 
 ## Source
-Documento strategico Spatial Port prodotto nella sessione Cowork del 02/09/2026 (source_ref sopra) su richiesta di Alex; ispirazione dichiarata: il caso JT Barnett (maglietta Walmart a una fiera del commerce). Deliverable originale: `20-evidence/attachments/2026-09-02-marmomac-2026/Marmareos_Marmomac2026_Idee_senza_stand.docx` (5 pagine).
+Documento strategico Spatial Port prodotto nella sessione Cowork del 02/09/2026 (source_ref sopra) su richiesta di Alex; ispirazione dichiarata: il caso JT Barnett (maglietta Walmart a una fiera del commerce). Deliverable originale: `Marmareos_Marmomac2026_Idee_senza_stand.docx` (5 pagine, layout Montserrat/palette Marmareos) consegnato nella sessione Cowork (source_ref); copia d'archivio da depositare nel Drive cliente quando `drive_root_ref` sarà creato. Il contenuto integrale è riportato in questo record.
 
 ## Actors
 - Alex Bellesia (Spatial Port) — autore/committente

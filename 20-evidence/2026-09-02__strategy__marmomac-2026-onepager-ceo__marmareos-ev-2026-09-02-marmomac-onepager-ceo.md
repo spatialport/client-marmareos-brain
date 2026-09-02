@@ -18,7 +18,7 @@ updated_at: 2026-09-02
 # Arrivare a Marmomac con l'agenda piena e uscirne con clienti — one-pager per il CEO (2 settembre 2026)
 
 ## Source
-One-pager di consiglio Spatial Port per Virginia Ottobre, prodotto nella sessione Cowork del 02/09/2026 (source_ref sopra) su richiesta di Alex ("come faccio ad avere clienti direttamente dalla presenza in fiera, arrivando con i meeting già in calendario"). Deliverable originale: `20-evidence/attachments/2026-09-02-marmomac-2026/Marmareos_Marmomac2026_OnePager_CEO.docx` (1 pagina).
+One-pager di consiglio Spatial Port per Virginia Ottobre, prodotto nella sessione Cowork del 02/09/2026 (source_ref sopra) su richiesta di Alex ("come faccio ad avere clienti direttamente dalla presenza in fiera, arrivando con i meeting già in calendario"). Deliverable originale: `Marmareos_Marmomac2026_OnePager_CEO.docx` (1 pagina) consegnato nella sessione Cowork (source_ref); copia d'archivio da depositare nel Drive cliente quando `drive_root_ref` sarà creato. Il contenuto è riportato integralmente in questo record.
 
 ## Actors
 - Alex Bellesia (Spatial Port) — autore
