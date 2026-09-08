@@ -14,13 +14,13 @@ schema_version: 1.1.0
 created_at: 2026-09-04
 updated_at: 2026-09-08
 ---
-# Lista outreach Marmomac 2026 — 120 target con email, gancio e messaggio pronto
+# Lista outreach Marmomac 2026: 120 target con email, gancio e messaggio pronto
 
 ## Source
 
 Ricerca condotta nella sessione Cowork del 04/09/2026 su richiesta di Alex ("metti a terra la strategia: cerca i 120 in target, ricerca, email, e proponi un messaggio di outreach"). Sette agenti di ricerca in parallelo su Exa (ricerca semantica + fetch delle pagine contatti), un segmento ciascuno, più un passaggio di arricchimento sui 21 nomi già presenti nella evidence `marmareos-ev-2026-09-02-marmomac-target-list`. Ogni riga è verificata su almeno una pagina pubblica; nessuna email dedotta da pattern.
 
-Revisione dell'08/09/2026: calendario di invio ricalcolato sui giorni reali rimasti (quattordici giorni alla fiera) e deliverable riemessi. Il contenuto della ricerca non cambia.
+Rivisto due volte l'08/09/2026. Prima il calendario, ricalcolato sui quattordici giorni realmente rimasti. Poi l'offerta stessa, dopo l'obiezione di Alex: il piano dava per acquisito un tavolo in prestito allo stand di un fornitore, che nessuno ci ha concesso, e i messaggi promettevano tre lastre già selezionate che nessuno aveva ancora scelto. Entrambe le cose sono state tolte. La ricerca sui 128 target non cambia; cambiano l'offerta nei messaggi e chi materialmente li manda.
 
 Indice completo dei 128 target (nome, tipo, città, paese, sito, contatto, email e sua natura, lingua, priorità, legame Monaco, evidenza Marmomac, gancio in forma sintetica, URL della fonte): `20-evidence/attachments/2026-09-04-marmomac-outreach/target-index.csv`. Il workbook operativo consegnato al cliente nella sessione (`Marmareos_Marmomac2026_Outreach_120.xlsx`, 5 fogli: Lista 120, Messaggi pronti, Riserva, Piano & template, Riepilogo) contiene in più il gancio esteso, la frase di apertura, le note di ricerca e i 120 messaggi già composti; va archiviato nel Drive cliente appena `drive_root_ref` esce da TBD nel manifest.
 
@@ -54,32 +54,38 @@ Indice completo dei 128 target (nome, tipo, città, paese, sito, contatto, email
 | H2 Yacht Design (Londra/Nizza) | Al Reem: Calacatta Oro e bar in onice bianco |
 | Hannes Peer (Milano) | Best Communicator Award Marmomac 2025 con Margraf; Spazio 46 a Lagundo in gneiss della Val Passiria |
 
-**Messaggi.** 120 email già scritte, una per target, in IT/FR/EN secondo la lingua del destinatario. Struttura fissa in quattro blocchi: saluto nominale, una frase sul suo progetto reale con il materiale, la proposta (tre lastre messe da parte, 20 minuti, punto d'incontro, due orari alternativi), la via d'uscita per chi non viene a Verona (foto della selezione più visita in studio a ottobre). Ai 12 yacht designer e ai cantieri nautici si aggiunge il pannello di marmo alleggerito da 3 kg. Firma di Virginia Ottobre con "pietra naturale su misura dal 1972, Arco". Nessuna brochure, nessun superlativo, nessuna urgenza: coerente con lo STYLE-COPY-GUIDE del brand.
+**Messaggi (versione 08/09).** 120 email riscritte, una per target, in IT/FR/EN secondo la lingua del destinatario. L'offerta non è più un appuntamento a un tavolo ma un servizio di scouting in fiera: "mi dica su cosa sta lavorando, le seleziono tre lastre e gliele faccio vedere io, mezz'ora, camminando, senza impegno". Il valore arriva all'architetto anche se non compra mai, ed è questo che rende l'invito accettabile.
 
-**Struttura di invio (calendario dell'08/09).** Tre blocchi da 40 nomi, ordinati per priorità (A prima): mercoledì 9/9, giovedì 10/9, venerdì 11/9. I primi 20 li scrive Virginia di persona; i restanti 100 li prepara Bianca e Virginia firma e invia. Secondo tocco lunedì 15/9 nello stesso thread con foto delle lastre; telefonate giovedì 17/9 per chiudere l'agenda; kit e cartelline venerdì 18/9; reminder ai confermati lunedì 21/9.
+La struttura è sempre la stessa: saluto nominale, una frase sul suo progetto reale con il materiale, la competenza che giustifica l'offerta (conoscere i padiglioni, sapere quali cave portano cosa), la proposta con due alternative di orario, la via d'uscita per chi non viene a Verona (selezione in foto e visita in studio a ottobre). Ai 12 yacht designer e ai cantieri nautici si aggiunge il pannello di marmo alleggerito da 3 kg. Firma di Virginia Ottobre con "Marmareos, Arco (TN). Lavoriamo pietra naturale su misura dal 1972."
 
-**Due parentesi aperte nei messaggi.** Il punto d'incontro è scritto come "Hall 3 [stand Prussiani - da confermare]" in tutti e 120 i testi: va sostituito prima dell'invio del 9/9. E la firma non cita i progetti monegaschi finché Virginia non autorizza.
+Copy revisionato con la skill humanizer: nessun trattino lungo, nessun superlativo, nessuna urgenza, niente formule da newsletter. Coerente con lo STYLE-COPY-GUIDE del brand.
+
+**Due cose tolte rispetto alla versione del 04/09.** Il riferimento al punto d'incontro ("Hall 3, stand Prussiani da confermare") non c'è più in nessuno dei 120 testi: gli incontri si fanno camminando, ci si trova all'ingresso del padiglione. E la frase "ho già messo da parte tre lastre per lei" è stata sostituita da "me lo dica e gliele trovo": la selezione si fa dopo la risposta, solo per i venti o venticinque che accettano, non a vuoto su centoventi nomi.
+
+**Chi manda, e quando.** I 120 messaggi partono dalla nuova casella Marmareos, autorizzata l'08/09, e li manda Spatial Port uno per uno: non in copia, non da Brevo. Tre blocchi da 40 ordinati per priorità: mercoledì 9/9, giovedì 10/9, venerdì 11/9. Dall'11/9 la casella la presidia Spatial Port e a Virginia arrivano solo le risposte reali. Secondo tocco lunedì 15/9 nello stesso thread; schede progetto per chi ha risposto martedì 16/9; telefonate di conferma giovedì 17/9 (Virginia o Bianca, sui numeri già ordinati); calendario e cartelline venerdì 18/9; reminder lunedì 21/9.
+
+**Una sola cosa ancora aperta.** La firma non cita i progetti monegaschi finché Virginia non autorizza.
 
 ## Direct implications for Marmareos
 
 - Esiste per la prima volta una lista di **committenti** nominativi con email, non solo di fornitori: è il primo asset di prospecting riutilizzabile oltre la fiera (EquipHotel, Milano Design Week, outreach continuativo).
 - 47 target su 120 hanno progetti a Monaco o in Costa Azzurra, la geografia prioritaria del piano di crescita: la lista è coerente con gli ICP di prospecting del canon.
-- Il collo di bottiglia non è più la lista ma il tempo di Virginia: 20 email personali e 10 telefonate entro l'11/9.
-- 103 email su 113 sono generiche di studio. Per i 40 nomi del blocco 1 vale la pena cercare il contatto diretto su LinkedIn prima dell'invio: è il fattore che sposta di più il tasso di risposta.
+- Il carico sul cliente è quasi nullo: con la casella Marmareos autorizzata, l'invio, il presidio delle risposte e la preparazione delle schede li fa Spatial Port. A Virginia restano tre decisioni oggi e un'ora di telefonate il 17/9.
+- 103 email su 113 sono generiche di studio. Per i 40 del primo blocco cerchiamo noi il contatto diretto su LinkedIn prima di mandare: è il fattore che sposta di più il tasso di risposta.
 
 ## Candidate tasks
 
-- Chiudere la lista con Virginia oggi 8/9: togliere chi non va invitato (SBM è già cliente via Hermitage e Monte-Carlo Bay), confermare i 20 nomi da scrivere di persona.
-- Cercare il contatto diretto su LinkedIn per i 40 target del blocco 1 con email generica (entro il 9/9).
-- Confermare il punto d'incontro (Prussiani Hall 3 A15, oppure sala Casa Italia Hall 2 C3 con iscrizione a Confindustria Marmomacchine) e sostituire la parentesi nei 120 messaggi.
+- Virginia, oggi 8/9: sfoltire la lista (SBM è già cliente via Hermitage e Monte-Carlo Bay), autorizzare o no i progetti di Monaco in firma, bloccare il 22 e il 23 in agenda per sé e per il padre.
+- Spatial Port, 9/9: configurare firma e tracciamento sulla nuova casella Marmareos, poi mandare il primo blocco.
+- Spatial Port, entro il 9/9: cercare su LinkedIn il contatto diretto per i 40 target del primo blocco che hanno solo l'email generica.
+- Spatial Port, 16/9: una scheda progetto per ogni risposta (progetto, materiale, quali espositori a Verona lo hanno).
+- Spatial Port, 21/9: ricognizione in fiera per individuare fisicamente le lastre da mostrare.
 - Importare i 120 in HubSpot con origine Fiera/Evento e stato di outreach allineato al file.
-- Fotografare le lastre selezionate entro il 12/9 per il secondo tocco del 15/9.
 
 ## Candidate decisions
 
 - Autorizzare o no la citazione dei progetti di Monaco (Mareterra, Hôtel Hermitage, Monte-Carlo Bay) nella firma degli inviti.
-- Casella di invio: personale di Virginia (raccomandata) contro casella condivisa o Brevo.
-- Iscrizione a Confindustria Marmomacchine per l'uso delle sale meeting di Casa Italia.
+- Confermata l'08/09: si manda dalla nuova casella Marmareos, non da Brevo e non da un indirizzo Spatial Port.
 
 ## Candidate canon updates
 
@@ -88,6 +94,7 @@ Indice completo dei 128 target (nome, tipo, città, paese, sito, contatto, email
 
 ## Open questions
 
-- Quante delle 103 email generiche arrivano davvero a una persona: da misurare sul tasso di risposta del blocco 1 il 9-11/9.
+- Quante delle 103 email generiche arrivano davvero a una persona: da misurare sul tasso di risposta del primo blocco.
+- Reputazione della nuova casella: è un dominio che non ha mai mandato volumi, quindi 40 invii al giorno vanno distribuiti nell'arco della giornata per non finire in spam.
 - Sette target senza email pubblica: procedere via form del sito, LinkedIn o telefono.
 - Se la figlia del titolare che sarà in fiera coincide con Virginia Ottobre (assunto in tutta la pianificazione, da confermare).
