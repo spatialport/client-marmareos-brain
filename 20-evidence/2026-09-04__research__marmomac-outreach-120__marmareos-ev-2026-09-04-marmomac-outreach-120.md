@@ -12,13 +12,15 @@ sensitivity: confidential
 source_ref: cowork://session/01K89frLhCz6ejgtMCDCm7oA
 schema_version: 1.1.0
 created_at: 2026-09-04
-updated_at: 2026-09-04
+updated_at: 2026-09-08
 ---
 # Lista outreach Marmomac 2026 — 120 target con email, gancio e messaggio pronto
 
 ## Source
 
 Ricerca condotta nella sessione Cowork del 04/09/2026 su richiesta di Alex ("metti a terra la strategia: cerca i 120 in target, ricerca, email, e proponi un messaggio di outreach"). Sette agenti di ricerca in parallelo su Exa (ricerca semantica + fetch delle pagine contatti), un segmento ciascuno, più un passaggio di arricchimento sui 21 nomi già presenti nella evidence `marmareos-ev-2026-09-02-marmomac-target-list`. Ogni riga è verificata su almeno una pagina pubblica; nessuna email dedotta da pattern.
+
+Revisione dell'08/09/2026: calendario di invio ricalcolato sui giorni reali rimasti (quattordici giorni alla fiera) e deliverable riemessi. Il contenuto della ricerca non cambia.
 
 Indice completo dei 128 target (nome, tipo, città, paese, sito, contatto, email e sua natura, lingua, priorità, legame Monaco, evidenza Marmomac, gancio in forma sintetica, URL della fonte): `20-evidence/attachments/2026-09-04-marmomac-outreach/target-index.csv`. Il workbook operativo consegnato al cliente nella sessione (`Marmareos_Marmomac2026_Outreach_120.xlsx`, 5 fogli: Lista 120, Messaggi pronti, Riserva, Piano & template, Riepilogo) contiene in più il gancio esteso, la frase di apertura, le note di ricerca e i 120 messaggi già composti; va archiviato nel Drive cliente appena `drive_root_ref` esce da TBD nel manifest.
 
@@ -54,24 +56,24 @@ Indice completo dei 128 target (nome, tipo, città, paese, sito, contatto, email
 
 **Messaggi.** 120 email già scritte, una per target, in IT/FR/EN secondo la lingua del destinatario. Struttura fissa in quattro blocchi: saluto nominale, una frase sul suo progetto reale con il materiale, la proposta (tre lastre messe da parte, 20 minuti, punto d'incontro, due orari alternativi), la via d'uscita per chi non viene a Verona (foto della selezione più visita in studio a ottobre). Ai 12 yacht designer e ai cantieri nautici si aggiunge il pannello di marmo alleggerito da 3 kg. Firma di Virginia Ottobre con "pietra naturale su misura dal 1972, Arco". Nessuna brochure, nessun superlativo, nessuna urgenza: coerente con lo STYLE-COPY-GUIDE del brand.
 
-**Struttura di invio.** Tre blocchi da 40 nomi, ordinati per priorità (A prima), invio lun 7/9, mar 8/9, mer 9/9. I primi 20 li scrive Virginia di persona; i restanti 100 li prepara Bianca e Virginia firma e invia. Secondo tocco lun 14/9 nello stesso thread con foto delle lastre; terzo tocco gio 17/9 per telefono o WhatsApp; reminder lun 21/9.
+**Struttura di invio (calendario dell'08/09).** Tre blocchi da 40 nomi, ordinati per priorità (A prima): mercoledì 9/9, giovedì 10/9, venerdì 11/9. I primi 20 li scrive Virginia di persona; i restanti 100 li prepara Bianca e Virginia firma e invia. Secondo tocco lunedì 15/9 nello stesso thread con foto delle lastre; telefonate giovedì 17/9 per chiudere l'agenda; kit e cartelline venerdì 18/9; reminder ai confermati lunedì 21/9.
 
-**Due parentesi aperte nei messaggi.** Il punto d'incontro è scritto come "Hall 3 [stand Prussiani - da confermare]" in tutti e 120 i testi: va sostituito prima dell'invio del 7/9. E la firma non cita i progetti monegaschi finché Virginia non autorizza.
+**Due parentesi aperte nei messaggi.** Il punto d'incontro è scritto come "Hall 3 [stand Prussiani - da confermare]" in tutti e 120 i testi: va sostituito prima dell'invio del 9/9. E la firma non cita i progetti monegaschi finché Virginia non autorizza.
 
 ## Direct implications for Marmareos
 
 - Esiste per la prima volta una lista di **committenti** nominativi con email, non solo di fornitori: è il primo asset di prospecting riutilizzabile oltre la fiera (EquipHotel, Milano Design Week, outreach continuativo).
 - 47 target su 120 hanno progetti a Monaco o in Costa Azzurra, la geografia prioritaria del piano di crescita: la lista è coerente con gli ICP di prospecting del canon.
-- Il collo di bottiglia non è più la lista ma il tempo di Virginia: 20 email personali e 10 telefonate entro il 9/9.
+- Il collo di bottiglia non è più la lista ma il tempo di Virginia: 20 email personali e 10 telefonate entro l'11/9.
 - 103 email su 113 sono generiche di studio. Per i 40 nomi del blocco 1 vale la pena cercare il contatto diretto su LinkedIn prima dell'invio: è il fattore che sposta di più il tasso di risposta.
 
 ## Candidate tasks
 
-- Chiudere la lista con Virginia entro dom 6/9: togliere chi non va invitato (SBM è già cliente via Hermitage e Monte-Carlo Bay), confermare i 20 nomi da scrivere di persona.
-- Cercare il contatto diretto su LinkedIn per i 40 target del blocco 1 con email generica.
+- Chiudere la lista con Virginia oggi 8/9: togliere chi non va invitato (SBM è già cliente via Hermitage e Monte-Carlo Bay), confermare i 20 nomi da scrivere di persona.
+- Cercare il contatto diretto su LinkedIn per i 40 target del blocco 1 con email generica (entro il 9/9).
 - Confermare il punto d'incontro (Prussiani Hall 3 A15, oppure sala Casa Italia Hall 2 C3 con iscrizione a Confindustria Marmomacchine) e sostituire la parentesi nei 120 messaggi.
 - Importare i 120 in HubSpot con origine Fiera/Evento e stato di outreach allineato al file.
-- Fotografare le lastre selezionate entro il 12/9 per il secondo tocco del 14/9.
+- Fotografare le lastre selezionate entro il 12/9 per il secondo tocco del 15/9.
 
 ## Candidate decisions
 
@@ -86,6 +88,6 @@ Indice completo dei 128 target (nome, tipo, città, paese, sito, contatto, email
 
 ## Open questions
 
-- Quante delle 103 email generiche arrivano davvero a una persona: da misurare sul tasso di risposta del blocco 1 il 7-9/9.
+- Quante delle 103 email generiche arrivano davvero a una persona: da misurare sul tasso di risposta del blocco 1 il 9-11/9.
 - Sette target senza email pubblica: procedere via form del sito, LinkedIn o telefono.
 - Se la figlia del titolare che sarà in fiera coincide con Virginia Ottobre (assunto in tutta la pianificazione, da confermare).
