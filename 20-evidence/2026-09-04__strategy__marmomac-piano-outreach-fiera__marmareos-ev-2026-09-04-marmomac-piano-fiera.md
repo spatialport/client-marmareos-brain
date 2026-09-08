@@ -14,79 +14,75 @@ schema_version: 1.1.0
 created_at: 2026-09-04
 updated_at: 2026-09-08
 ---
-# Piano esecutivo Marmomac 2026 — quattordici giorni, 120 inviti, 20 meeting
+# Marmomac 2026 senza stand: scouting su misura invece di un tavolo
 
 ## Source
 
-One-pager operativo per il cliente, prodotto nella sessione Cowork del 04/09/2026 e riscritto l'08/09/2026 su richiesta di Alex: più asciutto, con le idee proposte in forma esecutiva (una riga per azione, con la data e il responsabile) invece che in paragrafi condensati, e con il calendario ricalcolato sui giorni realmente rimasti. Sostituisce la versione del 04/09 dello stesso record. Deliverable consegnato al cliente: `Marmareos_Marmomac2026_Piano_Esecutivo.docx` (1 pagina); il contenuto è riprodotto integralmente qui sotto, il file va archiviato nel Drive cliente appena `drive_root_ref` esce da TBD nel manifest. Lista e messaggi nella evidence gemella `marmareos-ev-2026-09-04-marmomac-outreach-120`.
+Documento operativo per il cliente, prodotto il 04/09/2026 e riscritto due volte l'08/09/2026. La seconda riscrittura nasce da un'obiezione di Alex: "non abbiamo un tavolo o uno stand, e poi invito per cosa?". Aveva ragione su entrambe le cose, ed erano un difetto della versione precedente, non un dettaglio. Deliverable consegnato: `Marmareos_Marmomac2026_Come_Funziona.docx` (1 pagina, leggibile in meno di un minuto). Il contenuto è riprodotto qui sotto. Sostituisce le versioni del 04/09 e della prima revisione dell'08/09. Lista e messaggi nella evidence gemella `marmareos-ev-2026-09-04-marmomac-outreach-120`.
 
 ## Factual summary
 
-**Vincoli.** In fiera vanno quattro persone: il titolare (uomo sulla settantina), sua figlia (25-35 anni) e due collaboratori. Marmomac 2026 si tiene a Verona dal 22 al 25 settembre; Marmareos partecipa senza stand. Alla data della revisione (martedì 8 settembre) restano quattordici giorni.
+**Cosa era sbagliato prima.** Il piano precedente era costruito attorno a un tavolo in prestito allo stand di un fornitore (Prussiani, Hall 3 A15), che nessuno ci aveva concesso, ed era stato messo come vincolo critico dell'intera operazione. In più i messaggi promettevano tre lastre già selezionate per ogni destinatario, cosa che avrebbe richiesto di scoutare in anticipo 120 progetti e che nessuno aveva fatto. Due promesse scoperte.
 
-**La scelta, in una riga.** Il titolare non gira i padiglioni: sta a un tavolo fisso e riceve chi è stato invitato prima. Delle dieci idee della evidence `marmareos-ev-2026-09-02-marmomac-idee-senza-stand` è l'unica che non chiede a nessuno di recitare una parte né di percorrere dodici padiglioni; le altre restano in riserva.
+**L'offerta, adesso.** Un architetto che va a Marmomac ha 1.110 espositori davanti e due giorni di tempo, con un progetto in corso per cui deve trovare un materiale. Marmareos quei padiglioni li conosce: sa quali cave portano cosa e dove stanno i blocchi buoni. Quindi la proposta è: "mi dica su cosa sta lavorando, le trovo tre lastre in fiera e gliele faccio vedere io, mezz'ora, camminando, senza impegno".
 
-**Cosa ci si aspetta.** 120 inviti → circa 40 risposte → 20-25 meeting il 22 e 23 → 8-10 campionature → 2-3 contratti entro l'estate 2027. Coerente con la north-star metric del piano di crescita (contratti tracciati): il ritorno si misura a marzo, non il 26 settembre.
+È un servizio reale e non un pretesto, e ha tre proprietà che il tavolo non aveva. Non richiede nessuna infrastruttura, perché si fa camminando. Il valore arriva al destinatario anche se non compra mai da Marmareos, ed è questo che rende accettabile la richiesta di mezz'ora. E mette al centro l'unica cosa che il titolare fa meglio di chiunque altro in quel padiglione, cioè guardare una lastra e dire come si taglia.
 
-**Da fare, in ordine.**
+**Il carico di lavoro sta quasi tutto da noi.** L'autorizzazione alla nuova casella email Marmareos è arrivata l'08/09, quindi l'invio e il presidio delle risposte li fa Spatial Port, firmando come Virginia. Al cliente restano tre decisioni oggi e un'ora di telefonate il 17 settembre.
 
-| Quando | Azione |
+**Le tre cose che deve fare Virginia, oggi.**
+
+1. Guardare la lista dei 120 nomi e togliere chi non vuole invitare.
+2. Dirci se possiamo nominare Mareterra, Hôtel Hermitage e Monte-Carlo Bay nella firma. Con quei nomi l'invito pesa il doppio.
+3. Bloccare in agenda martedì 22 e mercoledì 23, dalle 9:30 alle 17:30, lei e suo padre.
+
+Poi, il 17 settembre, un'ora di telefonate ai contatti che hanno risposto, sui numeri che le passiamo già in ordine di priorità.
+
+**Cosa fa Spatial Port, dalla nuova casella Marmareos.**
+
+| Quando | Cosa |
 |---|---|
-| mar 8/9 (oggi) | Virginia prende le tre decisioni qui sotto: mezz'ora in tutto |
-| mer 9/9 | Partono i primi 40 inviti; i 20 più importanti li scrive Virginia di persona |
-| gio 10/9 | Altri 40. In parallelo si fotografano le lastre: servono lunedì |
-| ven 11/9 | Ultimi 40. Da qui ogni risposta si segna sul file lo stesso giorno |
-| lun 15/9 | A chi non ha risposto: tre righe nello stesso thread, con la foto delle lastre |
-| gio 17/9 | Telefonate. Si chiude l'agenda: 20-25 appuntamenti da mezz'ora |
-| ven 18/9 | Kit pronto: calibro, pannello da 3 kg, dieci campioni, una cartellina per ogni ospite; pagina marmomac26 con form HubSpot online |
-| lun 21/9 | Reminder ai confermati: dove, a che ora, il cellulare di Virginia |
-| mar 22 e mer 23/9 | Meeting 9:30-17:30, due in parallelo. Da ognuno si esce con una data |
-| gio 24 e ven 25/9 | Giro dei fornitori per il sourcing, recupero di chi non si è presentato |
-| lun 28/9 | Follow-up chiuso: email a tutti entro 48 ore, campionature in calendario, HubSpot aggiornato |
+| mer 9/9 | Configurazione della casella (firma, tracciamento) e invio dei primi 40 messaggi, uno per uno |
+| gio 10/9 | Altri 40 |
+| ven 11/9 | Ultimi 40. Da qui la casella la presidiamo noi e giriamo a Virginia solo le risposte reali |
+| lun 15/9 | Secondo tocco a chi non ha risposto, tre righe nello stesso thread. Richiesta di presentazioni a Platform ed Elle Decor |
+| mar 16/9 | Una scheda per ogni risposta: che progetto ha, che pietra gli serve, quali espositori a Verona ce l'hanno |
+| ven 18/9 | Calendario con orari e nomi, cartellina per ogni appuntamento con la scheda e le tre lastre da vedere |
+| lun 21/9 | Reminder a tutti i confermati. Ricognizione in fiera per individuare fisicamente le lastre |
+| lun 28/9 | Follow-up entro 48 ore da ogni incontro, campionature in calendario, tutto in HubSpot con origine Fiera/Evento |
 
-**In fiera, il 22 e il 23.**
+**In fiera, il 22 e il 23.** Ci si trova all'ingresso del padiglione e si cammina: niente stand, niente tavolo. Il titolare guarda le lastre con il cliente e racconta come si lavorano. Virginia tiene l'agenda e chiude ogni incontro con una data, cioè la campionatura sul progetto del cliente entro sette giorni. Se serve sedersi per parlare di numeri bastano i bar e le aree ristoro dei padiglioni.
 
-| Chi | Cosa fa |
-|---|---|
-| Il titolare | Sta al tavolo tutto il giorno. Racconta la lavorazione con il calibro in mano e chiede una cosa sola: una campionatura sul progetto dell'ospite entro sette giorni |
-| Virginia (la figlia) | Tiene l'agenda, porta gli ospiti a vedere le lastre, chiude ogni incontro con una data. La sera aggiorna il file |
-| Collaboratore che fa regia | Conferme, accoglienza all'ingresso, orologio (mezz'ora a testa), foto e video per Instagram |
-| Collaboratore che gira | Sourcing con la lista Target 2026, prenota le lastre dai fornitori, raccoglie i contatti incontrati per caso |
-
-**Le tre decisioni di oggi.**
-
-1. **Dove.** Un tavolo per due giorni allo stand Prussiani (Hall 3 A15) come clienti-testimonial. Se dicono di no: sala Casa Italia di Confindustria Marmomacchine (Hall 2 C3, previa iscrizione) o un tavolo fisso in un lounge. Senza questo i 120 messaggi non possono partire, perché contengono tutti la parentesi da compilare.
-2. **Monaco.** Si possono citare Mareterra, Hôtel Hermitage e Monte-Carlo Bay nella firma? Con quelli l'invito pesa il doppio.
-3. **Chi.** Quali nomi togliere dalla lista, e chi fa regia e chi gira tra i due collaboratori.
+**Numeri attesi.** 120 inviti, circa 40 risposte, 20-25 incontri il 22 e 23, 8-10 campionature su progetti reali, 2-3 contratti entro l'estate 2027. Coerente con la north-star metric del piano di crescita, che sono i contratti tracciati: il ritorno si misura a marzo, non il 26 settembre.
 
 ## Direct implications for Marmareos
 
-- La presenza in fiera passa da presidio generico a esecuzione di appuntamenti: nessuna delle quattro persone deve improvvisare, e il carico sul titolare è ridotto a stare seduto e fare il mestiere che conosce.
-- Il piano è compatibile con il livello di engagement L2 previsto dal WP-05 (piano fiere ed eventi) e ne alza l'obiettivo di appuntamenti da 15 a 20-25, perché la lista di invito esiste già.
-- Il costo incrementale è quasi solo tempo: nessuno stand, nessun allestimento; le uniche voci sono i biglietti d'ingresso, la stampa delle cartelline e l'eventuale quota associativa per le sale meeting.
-- La finestra si è accorciata di quattro giorni rispetto alla versione del 04/09: la decisione sul punto d'incontro è ora il vincolo critico, non più una delle cinque decisioni possibili.
+- L'operazione non dipende più da un favore di terzi. Prima bastava un no di Prussiani per bloccare l'invio di 120 messaggi.
+- Il formato itinerante è più coerente con il posizionamento del canon (partner tecnico su misura, non espositore): si vende competenza applicata a un progetto, non una vetrina.
+- Il costo incrementale è quasi solo tempo. Restano i biglietti d'ingresso e la stampa delle cartelline.
+- Con la casella Marmareos operativa, questo diventa un canale riutilizzabile oltre la fiera: EquipHotel, Milano Design Week, outreach continuativo sugli stessi ICP.
 
 ## Candidate tasks
 
-- Chiedere a Prussiani un tavolo per due giorni allo stand Hall 3 A15 come cliente-testimonial (oggi 8/9: blocca l'invio del 9/9).
-- Preparare kit e cartelline personalizzate per i confermati entro ven 18/9.
-- Creare la pagina marmomac26 con form HubSpot e QR entro mer 16/9.
-- Impostare il calendario condiviso a slot da 30 minuti per due persone in parallelo il 22 e 23.
-- Definire chi copre regia e fiera tra i due collaboratori.
+- Configurare firma, alias e tracciamento sulla nuova casella Marmareos prima dell'invio del 9/9.
+- Distribuire i 40 invii giornalieri nell'arco della giornata: è un dominio senza storico di volumi e va scaldato.
+- Preparare il modello di scheda progetto da compilare per ogni risposta (16/9).
+- Definire chi accompagna il titolare in fiera e chi gira per il sourcing.
+- Pagina marmomac26 con form HubSpot entro il 16/9.
 
 ## Candidate decisions
 
-- Confermare "agenda piena, base fissa" come strategia unica per Marmomac 2026, con le altre nove idee in riserva.
-- Punto d'incontro: Prussiani, Casa Italia o lounge.
-- Iscrizione a Confindustria Marmomacchine per le sale meeting.
+- Confermare lo scouting itinerante come formato unico per Marmomac 2026, con le altre idee del 02/09 in riserva.
+- Autorizzare o no i progetti di Monaco nella firma.
 
 ## Candidate canon updates
 
-- `10-canon/operations.md`: il formato di partecipazione a fiera senza stand (invito, base fissa, due meeting in parallelo, follow-up a 48 ore) diventa il modello riutilizzabile per EquipHotel e per le edizioni successive.
-- `10-canon/people.md`: registrare che in fiera il team cliente è di quattro persone e chiarire il ruolo del titolare, oggi assente dal canon.
+- `10-canon/operations.md`: registrare il formato "fiera senza stand con scouting su invito" come modello riutilizzabile, e il fatto che non richiede spazio espositivo né accordi con terzi.
+- `10-canon/channels.md`: la casella Marmareos usata per outreach uno a uno è un canale distinto dall'email marketing su Brevo, con regole proprie (nessun invio massivo, nessun template visivo).
+- `10-canon/people.md`: in fiera il team cliente è di quattro persone; il titolare non è ancora registrato nel canon.
 
 ## Open questions
 
-- Conferma del punto d'incontro: senza, i 120 messaggi restano con una parentesi da compilare.
-- Identità e disponibilità dei due collaboratori.
+- Autorizzazione sui progetti di Monaco.
+- Chi sono i due collaboratori che vanno in fiera.
 - Se la cena da dodici invitati del 23 sera resta in riserva o entra nel piano.
