@@ -12,7 +12,7 @@ sensitivity: confidential
 source_ref: dashboard://marmareos
 schema_version: 1.1.0
 created_at: 2026-08-19
-updated_at: 2026-09-08T18:38:24.771Z
+updated_at: 2026-09-09T18:33:57.447Z
 ---
 # Tasks (generated view)
 
@@ -24,6 +24,7 @@ Source of truth: NXTO dashboard (os.spatial-port.io).
 | task_p_ev-mm-002-t6 | content | Marmareos: eseguire la scansione competitiva sistematica per rapporto visualizzazioni/follower (passaggio dichiarato non ancora fatto) | backlog | alex-bellesia | internal |  | dashboard://marmareos/tasks/task_p_ev-mm-002-t6 |
 | t-mm-4 | company | Trascrizione call + CRM intelligence — scoping | backlog | scout | internal | 2026-06-20 | dashboard://marmareos/tasks/t-mm-4 |
 | task_p_ev-mm-002-t4 | content | Marmareos: raccogliere materiale d archivio dal 1972 per sbloccare il format 7 (1972) | backlog | alex-bellesia | internal |  | dashboard://marmareos/tasks/task_p_ev-mm-002-t4 |
+| task_p_ev-mm-003-t3 | content | Consegnare i materiali Marmomac fatturati nel mese 5: aggiornamento brochure salone del mobile e creazione locandina | backlog | alex-bellesia | internal |  | dashboard://marmareos/tasks/task_p_ev-mm-003-t3 |
 | task_p_ev-mm-002-t1 | content | Marmareos: ottenere autorizzazione scritta a nominare i progetti monegaschi (sblocca 5 dei 15 contenuti social) | backlog | alex-bellesia | internal |  | dashboard://marmareos/tasks/task_p_ev-mm-002-t1 |
 | task_p_ev-mm-003-t1 | paid-media | Marmareos — report performance di fine ciclo mese 5 (chiusura 19/09/2026) per Google Ads Francia (Monaco/Costa Azzurra) e Italia (Milano), con follow-up dei lead qualificati | backlog | alex-bellesia | internal |  | dashboard://marmareos/tasks/task_p_ev-mm-003-t1 |
 | task_p_test-fase0 | company | Task di prova contratto v1.1 | backlog | alex-bellesia | internal |  | dashboard://marmareos/tasks/task_p_test-fase0 |
